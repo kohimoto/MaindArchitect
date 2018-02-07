@@ -677,14 +677,16 @@ margin-bottom: 100px;
 .list ul {
   overflow: hidden;
 }
-/*
+
 .list ul li.list_dtl {
+/*
   float: left;
   width: 32%;
   margin-right: 2%;
+*/
   margin-bottom: 70px;
 }
-*/
+
 .list ul li.list_dtl:nth-child(3n) {
   margin-right: 0;
 }
@@ -733,10 +735,43 @@ margin-bottom: 100px;
 .works-list{
   padding-bottom: 50px;
 }
+#inputarea form{
+  text-align: center;
+}
+#inputarea form p{
+ padding-bottom: 50px;
+}
+#inputarea form p input {
+  width: 60%;
+  height: 50px;
+  border-radius: 3px;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #f6f6f6;
+  background: #f6f6f6;
+}
+#inputarea form p input::-webkit-input-placeholder {
+  color: #ccc;
+  font-family: "KozGoPro-Light", "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+  letter-spacing: 0.2em;
+  padding-left: 15px;
+}
+#inputarea form p input[type="submit"] {
+  width: 13%;
+  font-family: "KozGoPro-Light", "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+  letter-spacing: 0.4em;
+}
+#inputarea form p textarea {
+  width: 60%;
+  height: 300px;
+  border-radius: 3px;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #f6f6f6;
+  background: #f6f6f6;
+  resize: none;
 
-
-
-
+}
 
 
 /* ---- particles.js container ---- */
@@ -854,6 +889,17 @@ margin-bottom: 100px;
   .bg_top.concept {
     padding: 60px 0;
   }
+  #inputarea form p input {
+    width: 80%;
+  }
+  #inputarea form p input[type="submit"] {
+    width: 25%;
+  }
+  #inputarea form p textarea {
+    width: 80%;
+
+  }
+
 
 }
 @media (max-width: 375px) {
