@@ -441,7 +441,10 @@ nav#fh5co-main-nav{
   .js-fullheight .fh5co-table-cell img{
     width: auto;
     height: 60px;
-    transform: translate(10%,-100%);
+    /* transform: translate(10%,-100%); */
+    position: relative;
+    top: 25px;
+    left: -110px;
   }
   #fh5co-main-nav ul li.consept_h{
     width: 100%;
