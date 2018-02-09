@@ -183,9 +183,9 @@ button a.arrow.next {
   .list .works-list .back-btn {
     right: 42%;
     margin-right: 55px;
-  
+
   }
-  .list .news-list .next-btn, 
+  .list .news-list .next-btn,
   .list .works-list .next-btn {
     right: 38%;
   }
@@ -437,7 +437,7 @@ nav#fh5co-main-nav{
   }
   .menu-show .js-fullheight .fh5co-table-cell{
     background: #808080;
-  } 
+  }
   .js-fullheight .fh5co-table-cell img{
     width: auto;
     height: 60px;
@@ -838,7 +838,7 @@ margin-bottom: 100px;
   .list {
     margin: 0 10px 50px;
   }
-  
+
   .list ul li.list_dtl {
     width: 48%;
     /*margin-right: 4%;*/
@@ -890,13 +890,13 @@ margin-bottom: 100px;
     padding: 60px 0;
   }
   #inputarea form p input {
-    width: 80%;
+    width: 90%;
   }
   #inputarea form p input[type="submit"] {
-    width: 25%;
+    width: 40%;
   }
   #inputarea form p textarea {
-    width: 80%;
+    width: 90%;
 
   }
 
