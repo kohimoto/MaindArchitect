@@ -426,7 +426,7 @@ nav#fh5co-main-nav{
     text-align: left;
     margin: 0;
     position: relative;
-    top: 15%;
+    top: 150px;
     left: 7%;
   }
   #fh5co-main-nav ul li {
@@ -443,7 +443,7 @@ nav#fh5co-main-nav{
     height: 60px;
     /* transform: translate(10%,-100%); */
     position: absolute;
-    top: 3%;
+    top: 27px;
     left: 7%;
   }
   #fh5co-main-nav ul li.consept_h{
